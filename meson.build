@@ -1,7 +1,7 @@
 project(
-    'meson_template',
+    'mdtoc',
     'cpp',
-    default_options : ['warning_level=3', 'werror=true', 'optimization=3', 'cpp_std=c++17']
+    default_options : ['warning_level=3', 'werror=true', 'optimization=3', 'cpp_std=c++20']
 )
 
 
@@ -24,7 +24,7 @@ subdir('src')
 subdir('tests')
 
 executable(
-    'temp_executable',
+    'mdtoc',
     project_sources,
     include_directories : project_include_directories,
     dependencies : project_dependencies
