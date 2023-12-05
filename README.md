@@ -1,6 +1,4 @@
-# meson-template
-
-Template repository for C++ projects build with Meson and tested using Catch2.
+Read commit history for context. 
 
 # Initializing meson
 
